@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>로그인</title>
+</head>
+<body>
+    <div>
+        <p><a th:href="@{|${kakaoUrl}|}">카카오 로그인</a></p>
+    </div>
+    <p>이름: <span th:text="${username}"></span></p>
+    <p>이메일: <span th:text="${email}"></span></p>
+
+
+    <p>  Hello World!!! </p>
+
+    <a href="/gender">로그아웃</a>
+</body>
+</html>
